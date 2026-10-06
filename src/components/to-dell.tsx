@@ -23,16 +23,10 @@ export function ToDell() {
       <section className="mx-auto flex max-h-screen justify-center">
         <div className="relative">
           <img
-            src="/todel/tale.jpg"
-            alt="A crayon road under a pale sun"
+            src="/todel/plate.jpg"
+            alt="To above the sun. Dell on the road."
             className="block max-h-screen max-w-full"
           />
-          <div className="pointer-events-none absolute inset-0 grid grid-rows-6 px-6 text-center">
-            <p className="sign-to font-display row-start-2 self-center text-6xl sm:text-8xl">TO</p>
-            <p className="sign-dell font-display row-start-5 self-end text-7xl sm:text-8xl">
-              DELL
-            </p>
-          </div>
         </div>
       </section>
 
@@ -41,7 +35,7 @@ export function ToDell() {
         <h1 className="font-display mt-4 text-5xl leading-none sm:text-6xl">Once, a road.</h1>
         <div className="mt-6 space-y-4 text-lg leading-relaxed">
           <p>It crossed a hill. A sun sat on the hill. The road already knew its name.</p>
-          <p>Someone drew it that way. He posted the drawing. This page is the telling.</p>
+          <p>He posted it that way. To above the sun. Dell on the road. This page is the telling.</p>
           <p>The pair is DELL. Not the company. Not the share.</p>
         </div>
       </section>

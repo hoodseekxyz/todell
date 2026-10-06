@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { TaleNav } from "@/components/tale-nav";
 
 const STOPS = [
-  { name: "The sun", row: "row-start-2" },
-  { name: "The hill", row: "row-start-3" },
-  { name: "The bend", row: "row-start-4" },
-  { name: "The grass", row: "row-start-5" },
-  { name: "DELL", row: "row-start-6" },
+  { name: "The sun", row: "row-start-2 self-center" },
+  { name: "The hill", row: "row-start-3 self-start" },
+  { name: "The bend", row: "row-start-3 self-end" },
+  { name: "The road", row: "row-start-4 self-start" },
+  { name: "DELL", row: "row-start-4 self-center" },
 ] as const;
 
 export function TheRoad() {
@@ -61,7 +61,7 @@ export function TheRoad() {
         </div>
         <div className="relative mx-auto mt-6 w-fit max-w-full">
           <img
-            src="/todel/tale.jpg"
+            src="/todel/plate.jpg"
             alt="The road, waiting"
             className="road-plate block max-w-full"
           />
