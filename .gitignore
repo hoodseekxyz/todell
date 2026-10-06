@@ -8,3 +8,4 @@ screenshots
 artifacts
 .grok
 *.log
+.env*
