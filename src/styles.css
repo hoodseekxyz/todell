@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/lilita.ttf") format("truetype");
+}
+
+@theme {
+  --color-paper: #f3ecdf;
+  --color-ink: #2c2926;
+  --color-muted: #6e6862;
+  --color-crayon: #e2b14a;
+  --color-sky: #d7e6ee;
+  --color-line: #e4dccb;
+  --font-sans: "Iowan Old Style", Palatino, Georgia, serif;
+  --font-display: "Lilita One", "Arial Black", sans-serif;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+}
+
+.sign-to {
+  color: var(--color-ink);
+  line-height: 0.85;
+  letter-spacing: 0.04em;
+}
+
+.sign-dell {
+  color: var(--color-crayon);
+  line-height: 0.8;
+  letter-spacing: -0.03em;
+  -webkit-text-stroke: 0.06em var(--color-ink);
+  paint-order: stroke fill;
+}
