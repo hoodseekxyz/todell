@@ -1,7 +1,7 @@
 import { TaleNav } from "@/components/tale-nav";
 import { useState } from "react";
 
-const CA = "";
+const CA = "0x32026e20d442005afe1445c29089c84f0d121e18";
 const STOCK = "0x941AE714EC6D8130c7B75d67160Ca08f1e7d11Dd";
 
 export function ToDell() {
@@ -67,7 +67,7 @@ export function ToDell() {
             </button>
           </article>
           <p className="text-sm leading-relaxed text-muted">
-            Long lists DELL. The token address lands in the box above after the deploy.
+            Long lists DELL. The token is the box above.
           </p>
         </div>
       </section>
