@@ -38,6 +38,10 @@
   letter-spacing: 0.04em;
 }
 
+.road-plate {
+  max-height: 46svh;
+}
+
 .sign-dell {
   color: var(--color-crayon);
   line-height: 0.8;

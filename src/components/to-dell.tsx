@@ -1,3 +1,4 @@
+import { TaleNav } from "@/components/tale-nav";
 import { useState } from "react";
 
 const CA = "";
@@ -18,6 +19,7 @@ export function ToDell() {
 
   return (
     <main className="bg-paper text-ink">
+      <TaleNav />
       <section className="mx-auto flex max-h-screen justify-center">
         <div className="relative">
           <img
